@@ -1,0 +1,75 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
+
+  <title>
+    5-1
+  </title>
+  <style>
+    body {
+        font-family: 'Arsenal', sans-serif;
+        background-color: #AFDCEC;
+    }
+   
+    .container {
+        width: 1400px;
+        margin: 0 auto;
+        overflow: visible;
+        margin-top: 300px;
+    }
+    .box {
+        float: left;
+        transition: all 0.5s ease;
+        background-color: #AFDCEC;
+        color: #728C00;
+        margin: 15px;
+        text-align: center;
+        font-size: 12px;
+        width: 250px;
+        height: 250px;
+        position: relative;
+    }
+    /* COLOR */
+    .color:hover {
+        background-color:  #FA8072;
+    }
+     /* KEEP */
+    .keep.on-hover {
+        background-color: #FA8072;
+        border-radius: 50%;
+        background-color: #FFCD55;
+        transform: scale(3);
+    }
+
+
+  </style>
+
+  <script>
+    /* This is a script to enable KEEP */
+    $( document ).ready(function() {
+        $('.keep').hover(function() {
+            $(this).addClass('on-hover');
+        });
+    });
+  </script>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="box color"></div>
+<div class="box color"> </div>
+<div class="box keep">Amendments to the Constitution of the United States of America
+Articles in addition to, and amendment of, the Constitution of the United States of America, proposed by Congress, and ratified by the several states, pursuant to the Fifth Article of the original Constitution fn1</div>
+<div class="box color"> </div>
+<div class="box color"> </div>
+
+
+
+
+</div>
+
+</body>
+</html>
