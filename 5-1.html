@@ -29,18 +29,33 @@
         width: 250px;
         height: 250px;
         position: relative;
+        z-index: 1;
     }
     /* COLOR */
     .color:hover {
         background-color:  #FA8072;
+        transform: scale(1);
+        border-radius: 50%;
     }
-     /* KEEP */
-    .keep.on-hover {
-        background-color: #FA8072;
+    
+     /* COLOR */
+    .keep:hover {
         border-radius: 50%;
         background-color: #FFCD55;
         transform: scale(3);
+        z-index: 2;
     }
+
+    .copy {
+        padding-top: 72px;
+    }
+
+   .color.on-hover {
+        border-radius: 50%;
+        background-color: #FFCD55;
+        transform: scale(0.5);
+        z-index: 1;
+   }
 
 
   </style>
@@ -61,10 +76,15 @@
 
 <div class="box color"></div>
 <div class="box color"> </div>
-<div class="box keep">Amendments to the Constitution of the United States of America
-Articles in addition to, and amendment of, the Constitution of the United States of America, proposed by Congress, and ratified by the several states, pursuant to the Fifth Article of the original Constitution fn1</div>
+<div class="box keep">
+<p class="copy">Amendments to the Constitution of the United States of America
+Articles in addition to, and amendment of, the Constitution of the United States of America, proposed by Congress, and ratified by the several states, pursuant to the Fifth Article of the original Constitution fn1</p>
+</div>
 <div class="box color"> </div>
 <div class="box color"> </div>
+
+<div></div>
+<a href="4-2.html">&laquo;previous</a>
 
 
 
